@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "fastloop_trader.py"]
+CMD ["python", "fastloop_trader.py", "--live"]
